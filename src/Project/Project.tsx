@@ -1,8 +1,8 @@
 import "./Project.css";
-import homeJava from "./assets/finalhome.png";
-import shopImage from "./assets/finaloutput.jpg";
-import adImage from "./assets/game.png";
-import gameImage from "./assets/eco.jpg";
+import homeJava from "../assets/finalhome.png";
+import shopImage from "../assets/finaloutput.jpg";
+import adImage from "../assets/game.png";
+import gameImage from "../assets/eco.jpg";
 
 const Project = () => {
   return (

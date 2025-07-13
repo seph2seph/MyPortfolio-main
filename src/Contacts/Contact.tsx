@@ -1,10 +1,10 @@
 import "./Contact.css";
-import phoneIcon from "./assets/phone.png";
-import emailIcon from "./assets/email.png";
-import locationIcon from "./assets/location.png";
-import facebookIcon from "./assets/facebook.png";
-import linkedinIcon from "./assets/linkedin.png";
-import githubIcon from "./assets/github.png";
+import phoneIcon from "../assets/phone.png";
+import emailIcon from "../assets/email.png";
+import locationIcon from "../assets/location.png";
+import facebookIcon from "../assets/facebook.png";
+import linkedinIcon from "../assets/linkedin.png";
+import githubIcon from "../assets/github.png";
 
 const Contact = () => {
   return (

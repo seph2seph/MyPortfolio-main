@@ -1,0 +1,60 @@
+/* nav.css */
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* Reduce the space between logo and nav */
+  background: rgb(38, 6, 39);
+  padding: 15px 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  color: white;
+  justify-content: flex-start; /* <== change this */
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.site-title {
+  font-size: 24px;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-left: 100px; /* pushes nav to the right but keeps them close */
+}
+
+.nav-links li a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.nav-links li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.nav-icon {
+  width: 20px;
+  height: 20px;
+}
